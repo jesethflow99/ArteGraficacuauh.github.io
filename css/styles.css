@@ -412,8 +412,8 @@ a {
 /* Responsive */
 @media (max-width: 768px) {
   .hero{
-    background-color:#FF1493;
-    background-size: contain;
+    background-image: url("/img/termo2.gif");
+    background-size: cover;
     background-repeat: no-repeat;
 
 
