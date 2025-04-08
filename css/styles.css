@@ -410,13 +410,13 @@ a {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .hero{
-    background-image: url("/img/termo2.gif");
-    background-size: cover;
+
+    background-size: contain;
     background-repeat: no-repeat;
-
-
+    background-position: center;
+    background-clip: content-box;
   }
   .hero h1 {
       font-size: 2.5rem;
@@ -441,5 +441,26 @@ a {
   .contact-item i {
       margin-bottom: 10px;
   }
+}
+.cont{
+  z-index: -1;
+
+  background: linear-gradient(to top,  #FF1493, #fff);
+  display: flex;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  text-align: center;
+  height: 80%;
+  justify-content: space-between;
+  padding: 20px;
+  color: #feca57;
+  font-size: xx-large;
+  font-family:cursive;
+  font-weight: 700;
+}
+.cont div{
+  box-shadow: 2px 2px 2px 4px #48dbfb;
+  text-shadow: 2px 2px 2px black;
 }
 
